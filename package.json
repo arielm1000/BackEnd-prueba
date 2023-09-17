@@ -1,0 +1,27 @@
+{
+  "name": "backend-prueba",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "author": "Ariel Medina",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-form-data": "^2.0.22",
+    "express-validator": "^7.0.1",
+    "firebase-admin": "^11.10.1",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "save": "^2.9.0"
+  }
+}
